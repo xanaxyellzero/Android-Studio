@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/c4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Caezar Brian R. S- A11.2019.12272"
+        android:background="@color/black"
+        android:textColor="@color/borange"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/angka1"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/c7"
+        android:backgroundTint="@color/c7"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/angka2"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/c7"
+        android:backgroundTint="@color/c7"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/tmblHitung"
+            android:onClick="Penjumlahan"
+            android:layout_width="80dp"
+            android:text="+"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="85dp"
+            android:layout_height="80dp"/>
+
+        <Button
+            android:id="@+id/tmblHitung"
+            android:onClick="Pengurangan"
+            android:layout_width="80dp"
+            android:text="-"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_height="80dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/tmblHitung"
+            android:onClick="Perkalian"
+            android:layout_width="80dp"
+            android:text="x"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="85dp"
+            android:layout_height="80dp"/>
+
+        <Button
+            android:id="@+id/tmblHitung"
+            android:onClick="Pembagian"
+            android:layout_width="80dp"
+            android:text=":"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_height="80dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="250dp"
+        android:textSize="120dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/c6"
+        android:layout_marginTop="20dp"
+        android:layout_height=" 250dp"/>
+
+
+
+</LinearLayout>
